@@ -110,7 +110,7 @@ Features Styles
 .common_title {
   font-size: 4.8rem;
   text-align: center;
-
+  width: 100%;
   font-weight: 600;
   color: #000;
 }
@@ -201,4 +201,42 @@ Faq Styles
   width: 80%;
   margin: auto;
   margin-bottom: 5rem;
+}
+
+/*======================= 
+Pro section styles
+============================ */
+.pro_section {
+  background: #f5f5f5;
+}
+.pro_section .client_title {
+  font-size: 3rem;
+}
+
+.pro_inner {
+  display: flex;
+  justify-content: center;
+}
+.pro_inner h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1.8rem;
+}
+
+.pro_inner p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #a1a1a1;
+  line-height: 2.5rem;
+}
+
+.pro_num {
+  align-items: flex-start;
+}
+
+.pro_num h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #e4e1e5;
+  padding: 0 1.6rem;
 }
