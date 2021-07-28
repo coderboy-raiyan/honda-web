@@ -1,0 +1,204 @@
+/*========================
+Custom Fonts
+========================= */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/*======================= 
+Custom CSS
+======================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+a,
+a:hover,
+a:focus,
+.btn:focus {
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+}
+h1,
+h2 {
+  font-size: 2.6rem;
+}
+h3,
+h4 {
+  font-size: 1.7rem;
+}
+
+li {
+  list-style: none;
+}
+img {
+  height: auto;
+  max-width: 100%;
+}
+.btn {
+  background: #e76f51;
+  color: #fff;
+  padding: 1rem 3.3rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  font-size: 1.7rem;
+}
+.btn:hover {
+  background: #fff;
+  color: #e76f51;
+}
+.section_padding {
+  padding: 10rem 0;
+}
+
+/*=========================
+Hero Section Styles
+========================== */
+
+.hero-section {
+  background: #264653;
+}
+.hero-section h3 {
+  font-size: 1.4rem;
+  color: #fff;
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+.hero-section h1 {
+  font-size: 4.8rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 1.8rem;
+}
+.hero-section p {
+  color: #e0e0e0;
+  margin-bottom: 2.1rem;
+  line-height: 2.4rem;
+}
+.hero_inner {
+  margin-bottom: 5.6rem;
+}
+.hero_inner .btn {
+  color: #fff;
+  padding: 1rem 4rem;
+}
+.hero_inner .btn:hover {
+  color: #e76f51;
+}
+
+.modal_inner p {
+  color: #000;
+}
+
+.footer_btn .btn:hover {
+  border: 0.1rem solid #e76f51;
+}
+
+/*============================= 
+Features Styles
+================================= */
+.common_title {
+  font-size: 4.8rem;
+  text-align: center;
+
+  font-weight: 600;
+  color: #000;
+}
+.common_des {
+  font-size: 1.4rem;
+  margin-bottom: 12rem;
+  font-weight: 600;
+  color: #e76f51;
+
+  text-align: center;
+}
+.feature_inner {
+  width: 75%;
+  margin: auto;
+}
+.feature_inner .gray_scale {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+/*======================== 
+Happy Clients Section
+============================== */
+.client_title {
+  font-size: 4.8rem;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 5.2rem;
+}
+.client_title span {
+  color: #e76f51;
+}
+
+.card_img {
+  max-width: 50%;
+  margin: auto;
+}
+.card_inner {
+  padding: 4rem 0;
+  width: 96%;
+  height: 54rem;
+  margin: auto;
+}
+.card_inner p {
+  color: #6c6c6c;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  line-height: 2.6rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.card_inner .ratings {
+  color: #e77c40;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.card_inner .ratings .emty_star {
+  color: #e77c40;
+}
+.user_name {
+  font-size: 1.4rem;
+  color: #23a6f0;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+.worked_at {
+  font-size: 1.4rem;
+  color: #252b42;
+  font-weight: 600;
+  text-align: center;
+}
+
+/*================================ 
+Faq Styles
+========================================= */
+.accor_heading button {
+  font-size: 2rem;
+}
+
+.accor_main {
+  margin-bottom: 2rem;
+}
+.faq_img {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 5rem;
+}
