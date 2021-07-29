@@ -130,6 +130,57 @@ Features Styles
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
 }
+/* <!--======================= 
+Latest News
+============================ --> */
+.news_inner {
+  width: 100%;
+  margin: auto;
+  padding: 2rem 1rem;
+  height: 100%;
+  min-width: 23rem;
+}
+.news_img {
+  margin: auto;
+  width: 95%;
+  margin-bottom: 4rem;
+}
+
+.news_body h5 {
+  font-size: 2.6rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.news_body p {
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+  color: #6c6c6c;
+  margin-bottom: 4rem;
+}
+.news_btn {
+  padding: 1.2rem 2.4rem;
+  border-radius: 0.4rem;
+  -webkit-border-radius: 0.4rem;
+  -moz-border-radius: 0.4rem;
+  -ms-border-radius: 0.4rem;
+  -o-border-radius: 0.4rem;
+}
+.news_btn:hover {
+  background: #fff;
+  color: #e76f51;
+  border-color: #e76f51;
+}
+
+.active_btn {
+  background: #fff;
+  color: #e76f51;
+  border-color: #e76f51;
+}
+.active_btn:hover {
+  background: #e76f51;
+  color: #fff;
+}
+
 /*======================== 
 Happy Clients Section
 ============================== */
@@ -251,6 +302,7 @@ Our Payment Styles
   height: 100%;
   width: 92%;
   margin: auto;
+  min-height: 47rem;
 }
 .payment_title {
   font-size: 1.1rem;
@@ -292,10 +344,44 @@ Our Payment Styles
 }
 .payment_btn {
   width: 100%;
-  margin-left: 4rem;
+  margin: auto;
+  text-align: center;
 }
 .payment_btn .btn:hover {
   background: #fff;
   color: #e76f51;
   border-color: #e76f51;
+}
+
+/*====================== 
+Footer Styles
+========================= */
+
+.footer-section {
+  background: #0b0d17;
+  color: #fff;
+}
+.license {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 2rem;
+}
+.license li {
+  margin-right: 2rem;
+}
+.license li a {
+  text-decoration: none;
+  color: #fff;
+}
+.left_footer_menu {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 4rem;
+  width: 100%;
+}
+.left_footer_menu li {
+  margin-right: 3rem;
+}
+.left_footer_menu li a {
+  color: #fff;
 }
