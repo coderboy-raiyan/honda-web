@@ -125,6 +125,7 @@ Features Styles
 .feature_inner {
   width: 75%;
   margin: auto;
+  margin-bottom: 5rem;
 }
 .feature_inner .gray_scale {
   filter: grayscale(100%);
