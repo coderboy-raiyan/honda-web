@@ -216,6 +216,7 @@ Pro section styles
 .pro_inner {
   display: flex;
   justify-content: center;
+  margin-bottom: 3rem;
 }
 .pro_inner h2 {
   font-size: 1.8rem;
@@ -239,4 +240,62 @@ Pro section styles
   font-weight: 700;
   color: #e4e1e5;
   padding: 0 1.6rem;
+}
+
+/*========================== 
+Our Payment Styles
+====================================== */
+
+.payment_inner {
+  padding: 3rem 3rem;
+  height: 100%;
+  width: 92%;
+  margin: auto;
+}
+.payment_title {
+  font-size: 1.1rem;
+  color: #ed1d24;
+  font-weight: 600;
+}
+
+.payment_main_title {
+  font-size: 3.8rem;
+  font-weight: 600;
+}
+
+.payment_bg {
+  background: #f6f6f6;
+}
+.payment_num sup {
+  font-weight: 600;
+  font-size: 2.8rem;
+}
+.payment_num {
+  font-size: 6rem;
+  color: #000;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+.benefits {
+  font-size: 1.6rem;
+  color: #808080;
+  margin-bottom: 4rem;
+}
+.benefits li {
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+.benefits .fas {
+  font-size: 1.4rem;
+  color: #ed1d24;
+  margin-right: 0.7rem;
+}
+.payment_btn {
+  width: 100%;
+  margin-left: 4rem;
+}
+.payment_btn .btn:hover {
+  background: #fff;
+  color: #e76f51;
+  border-color: #e76f51;
 }
